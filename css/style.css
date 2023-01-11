@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'josefin';
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    border-radius: 20px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0.7483368347338936) 85%, rgba(158,158,158,0.4598214285714286) 100%);
+}
+.header img {
+    width: 60px;
+}
+.body button {
+    width: 80%;
+}
+@media only screen and (max-width:576px) {
+    .box {
+        width: 90%;
+    }
+}
+@media only screen and (min-width:577px) {
+    .box {
+        width: 50%;
+    }
+}
+@font-face {
+    font-family: 'josefin';
+    src: url(../fonts/JosefinSans-Medium.ttf);
+}
